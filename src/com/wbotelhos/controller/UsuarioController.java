@@ -1,16 +1,16 @@
-package com.wordpress.wbotelhos.controller;
+package com.wbotelhos.controller;
 
 import br.com.caelum.vraptor.Get;
 import br.com.caelum.vraptor.Path;
 import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.Result;
 
-import com.wordpress.wbotelhos.dao.UsuarioDao;
-import com.wordpress.wbotelhos.model.Usuario;
+import com.wbotelhos.dao.UsuarioDao;
+import com.wbotelhos.model.Usuario;
 
 /**
  * @author Washington Botelho dos Santos
- * @artigo http://wbotelhos.wordpress.com/2010/02/23/jpa-e-vraptor-3/
+ * @artigo http://wbotelhos.com/2010/02/23/jpa-e-vraptor-3
  */
 
 @Resource

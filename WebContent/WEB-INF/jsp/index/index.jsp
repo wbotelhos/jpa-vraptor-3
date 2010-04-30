@@ -6,12 +6,14 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>http://wbotelhos.wordpress.com</title>
+		<title>http://wbotelhos.com</title>
 	</head>
 	<body>
 		<form action="<c:url value='/usuario/consultar'/>">
-			Consultar: <input type="text" name="entity.nome"/><br/>
-			<input type="submit"/>
+			Consultar: <input type="text" name="entity.nome"/>
+			<input type="submit"/><br/><br/>
+			
+			Exemplo: Botelho
 		</form>
 	</body>
 </html>
