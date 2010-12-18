@@ -6,10 +6,12 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>http://wbotelhos.com</title>
+		<title>http://wbotelhos.com.br</title>
 	</head>
 	<body>
-		<b>${msg}</b><br/><br/>
+		<a href="<c:url value='/'/>">voltar</a><br/><br/>
+
+		<b>${msg}</b>
 		
 		<c:if test="${usuario != null}">
 			ID: ${usuario.id}<br/>

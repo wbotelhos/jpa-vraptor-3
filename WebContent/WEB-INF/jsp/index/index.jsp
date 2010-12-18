@@ -6,10 +6,10 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>http://wbotelhos.com</title>
+		<title>http://wbotelhos.com.br</title>
 	</head>
 	<body>
-		<form action="<c:url value='/usuario/consultar'/>">
+		<form action="<c:url value='/usuario/consultar'/>" method="get">
 			Consultar: <input type="text" name="entity.nome"/>
 			<input type="submit"/><br/><br/>
 			

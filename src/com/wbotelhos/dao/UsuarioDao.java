@@ -9,8 +9,8 @@ import br.com.caelum.vraptor.ioc.Component;
 import com.wbotelhos.model.Usuario;
 
 /**
- * @author Washington Botelho dos Santos
- * @artigo http://wbotelhos.com/2010/02/23/jpa-e-vraptor-3
+ * @author Washington Botelho
+ * @artigo http://wbotelhos.com.br/2010/02/23/jpa-e-vraptor-3
  */
 
 @Component
@@ -24,7 +24,7 @@ public class UsuarioDao {
 
 	public Usuario loadByNome(String nome) throws Exception {
 		try {
-			Query query = manager.createQuery("from Usuario e where e.nome = :nome");
+			Query query = manager.createQuery("from Usuario where nome = :nome");
 			query.setParameter("nome", nome);
 			Usuario usuario = (Usuario) query.getSingleResult();
 			return usuario;

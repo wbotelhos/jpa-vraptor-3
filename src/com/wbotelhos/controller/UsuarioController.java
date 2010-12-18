@@ -9,12 +9,11 @@ import com.wbotelhos.dao.UsuarioDao;
 import com.wbotelhos.model.Usuario;
 
 /**
- * @author Washington Botelho dos Santos
- * @artigo http://wbotelhos.com/2010/02/23/jpa-e-vraptor-3
+ * @author Washington Botelho
+ * @artigo http://wbotelhos.com.br/2010/02/23/jpa-e-vraptor-3
  */
 
 @Resource
-@Path("/usuario")
 public class UsuarioController {
 
 	private Result result;
@@ -26,7 +25,7 @@ public class UsuarioController {
 	}
 
 	@Get
-	@Path("/consultar")
+	@Path("/usuario/consultar")
 	public Usuario consultar(Usuario entity) {
 		try {
 			return usuarioDao.loadByNome(entity.getNome());
