@@ -12,7 +12,6 @@
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLInnoDBDialect" />
 
 			<property name="hibernate.hbm2ddl.auto" value="update"/>
-
 		</properties>
 	</persistence-unit>
 </persistence>
